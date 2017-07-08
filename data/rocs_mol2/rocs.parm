@@ -1,0 +1,63 @@
+#Interface settings
+
+#Execute Options :   
+    #-param (Not set, no default)
+    #-mpi_np (Not set, no default)
+    #-mpi_hostfile (Not set, no default)
+
+#InputOptions :   
+    -query  ./DKPES_csd_mmff_nconf_ext.mol2
+    -mcquery  true
+    -dbase  ./zinc_cas_mmff_nconf.mol2
+    #-scdbase  false
+
+#OutputOptions :   
+    #-prefix  rocs
+    #-outputdir (Not set, no default)
+    -besthits  0
+    #-cutoff  -1.0
+    -rankby  TanimotoCombo
+    #-maxconfs  1
+    -maxhits  0
+
+#ShapeOptions :   
+    #-shapeonly  false
+    #-tanimoto_cutoff  -1.0
+    #-subtan  false
+    -randomstarts  20
+    #-subrocs  false
+    #-opt  true
+    #-scoreonly  false
+
+#ColorOptions :   
+    #-chemff  ImplicitMillsDean
+    #-optchem  true
+
+#HitsOutputOptions :   
+    #-qconflabel  title
+    #-conflabel  title
+    -outputquery  true
+    #-nostructs  false
+    -hitsfile  dkpes_mmff_hits.mol2
+    -oformat  mol2
+    #-sdTags  true
+
+#ReportOutputOptions :   
+    #-report  each
+    -reportfile  dkpes_mmff_rocs.txt
+    #-stats  hits
+
+#StatusOutputOptions :   
+    #-status  each
+    #-statusfile (Not set, no default)
+
+#LogOutputOptions :   
+    #-logfile (Not set, no default)
+    -progress  percent
+    #-verbose  false
+
+#EONInputOptions :   
+    #-eon_input  false
+    #-eon_maxconfs  3
+    #-eon_input_size  1000
+    #-eon_input_file (Not set, no default)
