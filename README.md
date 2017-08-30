@@ -1,14 +1,14 @@
-# Activity From Virtual Screening Code Repository
+# "Automated Inference of Chemical Discriminants of Biological Activity" Code Repository
 
 
 Complimentary dataset and code for the chapter
 
-"Automated Inference of Chemical Discriminants of Biological Activity" 
+**"Automated Inference of Chemical Discriminants of Biological Activity"**
 
-in the book "Computational drug discovery and design" (Methods in Molecular Biology, Springer Protocols).
+in the book *"Computational drug discovery and design"** (Methods in Molecular Biology, Springer Protocols).
 
 Authors:  
-Sebastian Raschka, Anne M. Scott, Mar Huertas, Weiming Li, and Leslie A. Kuhn
+[Sebastian Raschka](https://sebastianraschka.com), [Anne M. Scott](https://msu.edu/~liweim/index.htm), [Mar Huertas](http://www.bio.txstate.edu/about/Faculty---Staff/faculty/Huertas--Mar.html), [Weiming Li](https://msu.edu/~liweim/index.htm), and [Leslie A. Kuhn](http://www.kuhnlab.bmb.msu.edu)
 
 
 ---
